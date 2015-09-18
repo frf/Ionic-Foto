@@ -1,5 +1,5 @@
 angular.module('starter.services', [])
-    .factory('Camera', ['$q', function($q) {
+   /* .factory('Camera', ['$q', function($q) {
 
       return {
         getPicture: function(options) {
@@ -15,7 +15,7 @@ angular.module('starter.services', [])
           return q.promise;
         }
       }
-    }])
+    }])*/
 .factory('Chats', function() {
   // Might use a resource here that returns a JSON array
 
